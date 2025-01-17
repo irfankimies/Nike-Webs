@@ -14,7 +14,7 @@ const PopularProducts = () => {
           Experience top-notch quality and style with our sought-after
           selections. Discover a world of comfort, design, and value
         </p>
-        <div className="grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-x-40 gap-y-5 p-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 gap-y-6">
           {products.map((product) => (
             <PopularProductsCard key={product.id} {...product} />
           ))}
